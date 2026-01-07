@@ -1,4 +1,60 @@
-Persistência de Dados com Python (DGT2819)Este repositório contém o desenvolvimento do Trabalho Prático da disciplina DGT2819 - Persistência de Dados com Python1. O projeto aborda conceitos fundamentais de manipulação de arrays, algoritmos de ordenação e persistência em arquivos externos2.+1📋 Sobre o ProjetoO objetivo central foi atuar como um Analista de Dados para criar um MVP (Minimum Viable Product) de um glossário de termos3333. O trabalho consistiu em ler documentos em formato .txt, processar o conteúdo para extrair palavras individuais e ordená-las de forma eficiente4.+2Objetivos Principais:Implementação de algoritmos de ordenação manual (Bubble Sort e Selection Sort)5.Utilização de métodos nativos de ordenação do Python (sort)6.Manipulação de arquivos externos (Leitura e Escrita de dados)7.Análise de performance entre diferentes abordagens de ordenação888.+1📂 Estrutura do RepositórioO projeto está dividido entre as microatividades de suporte e o script final de integração9999.+1Pasta / ArquivoDescriçãomicroatividades/array.sort.pyOrdenação de arrays de inteiros e strings usando métodos nativos10101010.+1microatividades/bubble.sort.pyImplementação manual do algoritmo Bubble Sort11111111.+1microatividades/selection.sort.pyImplementação manual do algoritmo Selection Sort12121212.+1microatividades/ler.txt.pyTécnicas de leitura de arquivos e uso da instrução with13131313.+1microatividades/escrever.txt.pyEscrita de listas de strings em arquivos externos14141414.+1microatividades/loremipsum.txtArquivo base utilizado para os testes de leitura15.trabalho_pratico/kdd.pyScript final (MVP) que integra leitura, ordenação otimizada e escrita161616.+1🛠️ Tecnologias UtilizadasPython 3.x 17VS Code como IDE principal 18Biblioteca Time para medição de performance 19📈 Conclusões da Análise de PerformanceDurante o desenvolvimento do script kdd.py, foram comparados três métodos de ordenação21:Bubble Sort: Eficaz para listas pequenas, mas com performance reduzida em volumes maiores22.Selection Sort: Lógica simples de busca pelo menor elemento, mantendo complexidade similar ao Bubble Sort23.Método Nativo (.sort): Escolhido para a versão final do MVP por apresentar a melhor performance e otimização24.Nota: Este projeto foi desenvolvido seguindo as orientações de Programação Estruturada e manipulação de fluxos de dados em Python25.Criado por: Samuel Davidson
+# Persistência de Dados com Python (DGT2819)
+
+Este repositório contém o desenvolvimento do Trabalho Prático da disciplina **DGT2819 - Persistência de Dados com Python**. O projeto aborda conceitos fundamentais de manipulação de arrays, algoritmos de ordenação e persistência em arquivos externos.
+
+---
+
+## 📋 Sobre o Projeto
+O objetivo central foi atuar como um **Analista de Dados** para criar um MVP (*Minimum Viable Product*) de um glossário de termos. O fluxo de trabalho consistiu em:
+* Ler documentos em formato `.txt`.
+* Processar o conteúdo para extrair palavras individuais.
+* Ordenar os dados de forma eficiente para geração do glossário final.
+
+### Objetivos Principais
+* **Ordenação Manual:** Implementação dos algoritmos *Bubble Sort* e *Selection Sort*.
+* **Ordenação Nativa:** Utilização do método `sort()` do Python.
+* **Persistência:** Manipulação de arquivos externos para leitura e escrita de dados.
+* **Performance:** Análise comparativa entre diferentes abordagens de ordenação.
+
+---
+
+## 📂 Estrutura do Repositório
+O projeto está organizado entre as microatividades de suporte e o script final de integração (KDD).
+
+| Pasta / Arquivo | Descrição |
+| :--- | :--- |
+| `microatividades/array.sort.py` | Ordenação de arrays (inteiros e strings) usando métodos nativos. |
+| `microatividades/bubble.sort.py` | Implementação manual do algoritmo Bubble Sort. |
+| `microatividades/selection.sort.py` | Implementação manual do algoritmo Selection Sort. |
+| `microatividades/ler.txt.py` | Técnicas de leitura de arquivos e uso da instrução `with`. |
+| `microatividades/escrever.txt.py` | Escrita de listas de strings em arquivos externos. |
+| `microatividades/loremipsum.txt` | Arquivo base utilizado para os testes de leitura. |
+| `trabalho_pratico/kdd.py` | Script final (MVP) que integra leitura, ordenação otimizada e escrita. |
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+* **Python 3.x**: Linguagem base para o desenvolvimento.
+* **VS Code**: IDE utilizada para codificação e depuração.
+* **Biblioteca Time**: Utilizada para a medição precisa de performance dos algoritmos.
+
+---
+
+## 📈 Análise de Performance e Conclusões
+Durante o desenvolvimento do script `kdd.py`, foram comparados três métodos de ordenação para definir a melhor abordagem para o MVP:
+
+> **Bubble Sort:** Eficaz para listas pequenas, mas apresenta performance reduzida em volumes maiores de dados.
+>
+> **Selection Sort:** Lógica simples baseada na busca pelo menor elemento, mantendo complexidade similar ao Bubble Sort.
+>
+> **Método Nativo (.sort):** Escolhido para a versão final do projeto por apresentar a melhor performance e otimização interna (Timsort).
+
+---
+
+## 📝 Nota Técnica
+Este projeto foi desenvolvido seguindo os princípios da **Programação Estruturada** e manipulação eficiente de fluxos de dados em Python.
+
+**Criado por:** Samuel Davidson
 
 
 Resultados:
